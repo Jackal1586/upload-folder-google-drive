@@ -1,4 +1,4 @@
-from google_my import get_service
+from google_service import get_service
 from googleapiclient.http import MediaFileUpload
 from tabulate import tabulate
 import mimetypes
