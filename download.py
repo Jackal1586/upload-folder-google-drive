@@ -52,7 +52,9 @@ def download_file(service, real_file_id, write_ptr):
 
 if __name__ == "__main__":
     service = get_service()
-    output_file = "dpr_deps.7z"
+    import sys
+
+    output_file = sys.argv[1]  # "dpr_deps.7z"
 
     with open(output_file, "wb") as wp:
         download_file(service, "1F3b-AyknJK0ANKcjhBQSV5kPR9_TvQpS", wp)
