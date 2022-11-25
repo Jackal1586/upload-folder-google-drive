@@ -1,0 +1,4 @@
+*.7z
+cred.json
+token.json
+__pycache__
