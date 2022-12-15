@@ -57,4 +57,4 @@ if __name__ == "__main__":
     output_file = sys.argv[1]  # "dpr_deps.7z"
 
     with open(output_file, "wb") as wp:
-        download_file(service, "1F3b-AyknJK0ANKcjhBQSV5kPR9_TvQpS", wp)
+        download_file(service, sys.argv[2], wp)
